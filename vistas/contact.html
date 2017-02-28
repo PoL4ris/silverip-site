@@ -1,0 +1,63 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 contact-uri">
+     <h2 class="block3-t f-28">Connect with us</h2>
+      <div class="row">
+        <div class="col-lg-6 inputs-container">
+          <div class="row">
+            <div class="col-lg-6">
+              <label>First Name *</label>
+              <input type="text" placeholder="Ex: Pablo" required name="first_name">
+              <label>Street Address *</label>
+              <input type="text" placeholder="Ex: 150 N. Michigan Chicago il." required name="street_no">
+              <label>Email *</label>
+              <input type="text" placeholder="Ex: help@silverip.com" required name="email">
+              <label>Phone Number</label>
+              <input type="text" placeholder="Ex: 312 600 3800" required name="phone">
+            </div>
+            <div class="col-lg-6">
+              <label>Last Name *</label>
+              <input type="text" placeholder="Ex: Uribe" required name="last_name">
+              <label>Apt Number</label>
+              <input type="text" placeholder="Ex: 359" required name="unit_no">
+              <label>When can we contact you * </label>
+              <div class="dpicker">
+                <md-datepicker ng-model="ctrl.myDate" md-placeholder="Enter date" md-open-on-focus=""></md-datepicker>
+              </div>
+              <label>Your preferred time * </label>
+              <select name="contact_time">
+                <option value="">Please Select</option>
+                <option value="8AM-10AM">8AM-10AM</option>
+                <option value="10AM-12PM">10AM-12PM</option>
+                <option value="12PM-2PM">12PM-2PM</option>
+                <option value="2PM-4PM">2PM-4PM</option>
+                <option value="4PM-6PM">4PM-6PM</option>
+                <option value="8PM-10PM">8PM-10PM</option>
+              </select>
+            </div>
+            <textarea placeholder="Please tell us what you are inquiring about"  name="message"></textarea>
+
+            <br>
+            <br>
+            <div>
+              <p> * Indicates required field</p>
+              <a class=" boton-1 block2">SEND</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 contact-uri-img">
+          <img src="img/cloudsignup.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+

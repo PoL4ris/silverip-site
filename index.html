@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>SilverIP</title>
+  <meta name="description" content="SilverIP" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!--DEFAULT STYLES-->
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <!--Our Website CSS Styles-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body ng-app="app" class="skin1" ng-controller="mainController" id="body">
+  <div class="skin-change">
+    <div class="sk1 pull-left m-r-sm" ng-click="skinChange(1)"></div>
+    <div class="sk2 pull-left m-r-sm" ng-click="skinChange(2)"></div>
+    <div class="sk3 pull-left m-r-sm" ng-click="skinChange(3)"></div>
+    <div class="sk4 pull-left m-r-sm" ng-click="skinChange(4)"></div>
+    <div class="sk5 pull-left m-r-sm" ng-click="skinChange(5)"></div>
+    <div class="sk6 pull-left m-r-sm" ng-click="skinChange(6)"></div>
+    <div class="sk7 pull-left m-r-sm" ng-click="skinChange(7)"></div>
+    <div class="sk8 pull-left m-r-sm" ng-click="skinChange(8)"></div>
+    <div class="sk9 pull-left" ng-click="skinChange(9)"></div>
+  </div>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="logo">
+            <img src="img/silverip-logo.png" alt="SilverIP" title="SilverIP">
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <ul>
+            <li><a href="" class="block4-t" ng-click="scrollTo('team')" >About</a></li>
+            <li><a href="" class="block4-t" ng-click="scrollTo('products')">Services</a></li>
+            <li><a href="" class="block4-t" ng-click="scrollTo('how')">Explore</a></li>
+            <li><a href="" class="block4-t" ng-click="scrollTo('business')">Business</a></li>
+            <li><a href="#/contact" class="block4-t">Contact Us</a></li>
+            <li><a href="" class="block4-t">Support</a></li>
+            <li><a href="" class="block4-t">Get SILVERIP</a></li>
+            <li><a href="" class="block4-t">MyAccount</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section ng-view autoscroll></section>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h3 class="block2-t">About Us</h3>
+          <p>We provide the fastest and highest quality access available in the market, enabling large buildings to benefit from the scale of bulk. </p>
+        </div>
+
+        <div class="col-lg-3">
+          <h3 class="block2-t">Services</h3>
+          <ul>
+            <li><a href="">Modern Fiber Internet</a></li>
+            <li><a href="">Digital TV</a></li>
+            <li><a href="">Digital Phone and unlimited calling</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h3  class="block2-t">News</h3>
+          <ul>
+            <li><a href="#news">SilverIP at the Chicago Expo at Navy Pier 2013</a></li>
+            <li><a href="#news">SilverIP rolls out Gigabit service to residential properties</a></li>
+            <li><a href="#news">SilverIP at Millennium Park</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h3 class="block2-t">Our Address</h3>
+          <p><span>150 N. Michigan Chicago il.</span></p>
+          <p><span>312.600.3800</span></p>
+          <p><span>help@silverip.com</span></p>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div>
+          <hr>
+          <div>
+            <p>Silver<i>IP</i> Communications &copy; 2017</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <input type="button"  class="goToTop block2 block3-t" value="^" style="display:none;" />
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+  <!--Our Website Javascripts-->
+  <script src="js/jquery.min.js"></script>
+  <!--<script src="js/jquery-ui.js"></script>-->
+  <script src="js/main.js"></script>
+  <script src="js/js.js"></script>
+
+
+</body>
+
+</html>
