@@ -1,4 +1,5 @@
-.skin-change{
+
+.skin-change {
   background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
   height: 20px;
   padding: 0 20px;
@@ -7,7 +8,8 @@
   top: 30px;
   z-index: 10;
 }
-.skin-change:after{
+.skin-change::after {
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
   bottom: -15px;
   color: black;
   content: "CHANGE SKIN";
@@ -18,109 +20,118 @@
   position: absolute;
   text-align: center;
   width: 100%;
-  background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
 }
-.skin-change div{
+.skin-change div {
   cursor: pointer;
   height: 10px;
   position: relative;
   top: 5px;
   width: 10px;
 }
-.skin-change div:hover{
-  opacity:.7;
+.skin-change div:hover {
+  opacity: 0.7;
 }
-.skin-change .sk1{
-  background: #EF736C none repeat scroll 0 0;
-
+.skin-change .sk1 {
+  background: #ef736c none repeat scroll 0 0;
 }
-.skin-change .sk2{
-  background: #7D2176 none repeat scroll 0 0;
+.skin-change .sk2 {
+  background: #7d2176 none repeat scroll 0 0;
 }
-.skin-change .sk3{
+.skin-change .sk3 {
   background: #b9e986 none repeat scroll 0 0;
 }
-.skin-change .sk4{
+.skin-change .sk4 {
   background: #451ca5 none repeat scroll 0 0;
 }
-.skin-change .sk5{
+.skin-change .sk5 {
   background: #81e0f4 none repeat scroll 0 0;
 }
-.skin-change .sk6{
+.skin-change .sk6 {
   background: #7e1b77 none repeat scroll 0 0;
 }
-.skin-change .sk7{
+.skin-change .sk7 {
   background: #441c7f none repeat scroll 0 0;
 }
-.skin-change .sk8{
+.skin-change .sk8 {
   background: #fadf2c none repeat scroll 0 0;
 }
-.skin-change .sk9{
+.skin-change .sk9 {
   background: #fb572d none repeat scroll 0 0;
 }
-/* SKIN 0 */
 .skin0 header {
-
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
   position: relative;
   z-index: 5;
 }
 .skin0 .block1 {
-
 }
 .skin0 .block1-t {
-
 }
 .skin0 .block2 {
-
 }
 .skin0 .block2-t {
-
 }
 .skin0 .block3 {
-
 }
 .skin0 .block3-t {
-
 }
 .skin0 .block4 {
-
 }
 .skin0 .block4-t {
-
 }
-/* SKIN 1 */
 .skin1 header {
-  background: #42425e none repeat scroll 0 0;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  background: #333333 none repeat scroll 0 0;
   position: relative;
   z-index: 5;
 }
 .skin1 .block1 {
-  background: #42425e none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(#fff, #fdfdfd, #f7f7f7) repeat scroll 0 0;
 }
 .skin1 .block1-t {
-  color: #42425e;
+  color: #0091ea;
 }
 .skin1 .block2 {
-  background: #ef736c none repeat scroll 0 0;
+  background: #0091ea none repeat scroll 0 0;
 }
 .skin1 .block2-t {
-  color: #ef736c;
+  color: #333;
 }
 .skin1 .block3 {
-  background: #3db8cb none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(#fff, #fdfdfd, #f7f7f7) repeat scroll 0 0;
 }
 .skin1 .block3-t {
-  color: #3db8cb;
+  color: #777;
 }
 .skin1 .block4 {
-  background: #f2f2f2 none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(#fff, #fdfdfd, #f7f7f7) repeat scroll 0 0;
 }
 .skin1 .block4-t {
-  color: #f2f2f2;
+  color: #fff;
 }
-/* SKIN 2 */
+.skin1 .c1 {
+  color: #c1bdbe;
+}
+.skin1 .c2 {
+  color: #06c8f8;
+}
+.skin1 .c3 {
+  color: #c1bdbe;
+}
+.skin1 .c4 {
+  color: #06c8f8;
+}
+.skin1 .c5 {
+  color: #06c8f8;
+}
+.skin1 .c6 {
+  color: #c1bdbe;
+}
+.skin1 .c7 {
+  color: #06c8f8;
+}
+.skin1 .c8 {
+  color: #c1bdbe;
+}
 .skin2 header {
   background: #2d3e6c none repeat scroll 0 0 !important;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -151,38 +162,36 @@
 .skin2 .block4-t {
   color: #acdcd0;
 }
-/* SKIN 3*/
 .skin3 header {
-  background: #42475D;
+  background: #42475d none repeat scroll 0 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
   position: relative;
   z-index: 5;
 }
 .skin3 .block1 {
-  background: #42475D;
+  background: #42475d none repeat scroll 0 0;
 }
 .skin3 .block1-t {
-  color: #42475D;
+  color: #42475d;
 }
 .skin3 .block2 {
-  background: #b9e986;
+  background: #b9e986 none repeat scroll 0 0;
 }
 .skin3 .block2-t {
   color: #b9e986;
 }
 .skin3 .block3 {
-  background: #88dce7;
+  background: #88dce7 none repeat scroll 0 0;
 }
 .skin3 .block3-t {
   color: #b9e986;
 }
 .skin3 .block4 {
-  background: #e89585;
+  background: #e89585 none repeat scroll 0 0;
 }
 .skin3 .block4-t {
   color: #e89585;
 }
-/* SKIN 4*/
 .skin4 header {
   background: #2f405e none repeat scroll 0 0 !important;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -213,7 +222,6 @@
 .skin4 .block4-t {
   color: #efefef;
 }
-/* SKIN 5*/
 .skin5 header {
   background: #333 none repeat scroll 0 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -244,7 +252,6 @@
 .skin5 .block4-t {
   color: white;
 }
-/* SKIN 6*/
 .skin6 header {
   background: #2f405e none repeat scroll 0 0 !important;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -275,7 +282,6 @@
 .skin6 .block4-t {
   color: #bfb39d;
 }
-/* SKIN 7 */
 .skin7 header {
   background: #2f405e none repeat scroll 0 0 !important;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -305,7 +311,6 @@
 .skin7 .block4-t {
   color: #a9a9a9;
 }
-/* SKIN 8 */
 .skin8 header {
   background: #441c7f none repeat scroll 0 0 !important;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -331,12 +336,11 @@
   color: #6a7a8d;
 }
 .skin8 .block4 {
-  background: #ddd;
+  background: #ddd none repeat scroll 0 0;
 }
 .skin8 .block4-t {
   color: #dcc9a8;
 }
-/* SKIN 9 */
 .skin9 header {
   background: #276cab none repeat scroll 0 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
@@ -367,7 +371,12 @@
 .skin9 .block4-t {
   color: #dcc9a8;
 }
-/* SKIN 9 */
+.block0 {
+  background: rgba(0, 0, 0, 0) linear-gradient(#fff, #fdfdfd, #f7f7f7) repeat scroll 0 0;
+}
+.block-t {
+  color: #0091ea;
+}
 .t-white {
   color: white;
 }
@@ -386,20 +395,23 @@
 .p-b-lg {
   padding-bottom: 20px;
 }
-.m-r-sm{
+.m-r-sm {
   margin-right: 10px;
 }
 .t-shadow {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 body {
+  -moz-osx-font-smoothing: inherit;
+  background: transparent none repeat scroll 0 0 !important;
   font-size: 12px;
-  transition: all .7s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 header {
   height: 70px;
 }
 footer {
+  background: #f2f2f2 none repeat scroll 0 0;
 }
 header .logo {
   padding-top: 10px;
@@ -417,7 +429,6 @@ header ul li {
   font-size: 14px;
   margin-left: 15px;
   padding: 3px 5px;
-  /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);*/
 }
 section .images-home {
   background: rgba(0, 0, 0, 0) url("/silverip/img/chicago.jpg") repeat scroll center center / 100% auto;
@@ -581,38 +592,51 @@ iframe {
   color: white;
 }
 .t2-bloques {
+  margin-bottom: 35px;
 }
 .t2-bloques img {
-  box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.1);
+
 }
 .t2-bloques div {
   text-align: center;
 }
-#team2 {
-  margin-bottom: 50px;
-}
 #infrastructureconsulting {
-  background: rgba(0, 0, 0, 0) url("/silverip/img/loft.jpg") no-repeat scroll center bottom / 100% auto;
-  height: 500px;
+  background: rgba(0, 0, 0, 0) url("/silverip/img/loft.jpg") no-repeat scroll center 100% / 100% auto;
+  height: 460px;
+  position: relative;
+}
+#team {
+  /*background: rgba(0, 0, 0, 0) url("/silverip/img/chicago-ocaso.jpg") no-repeat scroll center 75% / 100% auto;*/
+  /*height: 460px;*/
+  /*position: relative;*/
 }
 #infrastructureconsulting .content-txt {
   margin-top: 160px;
 }
 #elevateyourinternet .lap {
-  background: rgba(0, 0, 0, 0) url("/silverip/img/mac.png") no-repeat scroll left 30px;
-  height: 400px;
+  height: 460px;
+  left: -20%;
+  padding: 0;
+  position: relative;
+  top: 10%;
+  width: 120%;
+  z-index: 0;
+}
+#elevateyourinternet .lap img {
+  position: relative;
+  top: 50px;
+  width: 100%;
 }
 #elevateyourinternet .mac-txt {
-  float: right;
-  margin-top: 80px;
-  width: 50%;
+  margin-top: 140px;
+  padding-left: 60px;
 }
 #elevateyourinternet .mac-txt h2 {
   font-weight: bold;
   margin-bottom: 40px;
 }
 #alwaysstayconnected {
-  background: rgba(0, 0, 0, 0) url("/silverip/img/pareja.jpg") no-repeat scroll right center / 50% auto;
+  background: rgba(0, 0, 0, 0) url("/silverip/img/pareja.png") no-repeat scroll right center / 50% auto;
   height: 460px;
   padding-top: 90px;
 }
@@ -630,7 +654,7 @@ iframe {
 .left-side-support div h2 {
   float: left;
   text-align: right;
-  width: 40%;
+  width: 45%;
 }
 .left-side-support div p {
   float: right;
@@ -641,30 +665,38 @@ iframe {
 .left-side-support div p small {
   float: left;
   font-size: 10px;
-  width: 100%;
+  width: 80%;
 }
 .left-side-support div p b {
   font-size: 50px;
 }
 .left-side-support div p i {
-  font-size: 65px;
+  font-size: 50px;
   margin-right: 10px;
 }
 .left-side-support div .top {
-  border-bottom: 5px solid #42425e;
   padding-bottom: 20px;
+  position: relative;
+}
+.left-side-support div .top:after{
+  background: #333 none repeat scroll 0 0;
+  bottom: 0;
+  content: " ";
+  height: 2px;
+  left: 20px;
+  position: absolute;
+  width: 78%;
 }
 .support-block {
-  padding-bottom: 70px;
-  padding-top: 70px;
+  padding-bottom: 60px;
+  padding-top: 50px;
 }
 .right-side-support h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .right-side-support p {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
-
 .boton-1 {
   border-radius: 3px;
   color: white;
@@ -673,11 +705,7 @@ iframe {
   text-align: center;
   width: 150px;
 }
-
-
-
-.goToTop
-{
+.goToTop {
   border: medium none;
   border-radius: 50%;
   bottom: 0;
@@ -694,8 +722,6 @@ iframe {
   width: 40px;
   z-index: 100000;
 }
-
-
 .chart {
   background: rgba(0, 0, 0, 0) url("/silverip/img/bar-bg.png") no-repeat scroll 0 0;
   float: left;
@@ -731,14 +757,13 @@ iframe {
   position: absolute;
   width: 28px;
 }
-
-
-.contact-uri{}
-.contact-uri-img{
+.contact-uri {
+}
+.contact-uri-img {
   position: relative;
   top: -110px;
 }
-.contact-uri h2{
+.contact-uri h2 {
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -791,11 +816,43 @@ iframe {
   border-width: medium 2px 2px medium;
   float: left;
   height: 30px;
+  margin-bottom: 10px;
   padding: 0;
   position: relative;
   width: 100%;
-  margin-bottom: 10px;
 }
-.dpicker .md-icon-button + .md-datepicker-input-container button{
+.dpicker .md-icon-button + .md-datepicker-input-container button {
   top: 10px;
+}
+.resumen-block {
+  height: 230px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+.resumen-block .resumen {
+  float: left;
+  width: 100%;
+}
+.resumen-block .icono-resumen {
+  margin-bottom: 20px;
+}
+.resumen-block .icono-resumen i {
+  font-size: 35px;
+}
+.resumen-block .texto-uno {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 110%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.resumen-block .texto-dos {
+  font-size: 17px;
+  line-height: 130%;
+}
+.learn-more {
+  font-size: 17px !important;
+}
+.learn-more i.fa {
+  margin-left: 5px;
 }
