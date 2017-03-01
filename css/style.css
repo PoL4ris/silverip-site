@@ -636,7 +636,7 @@ iframe {
   margin-bottom: 40px;
 }
 #alwaysstayconnected {
-  background: rgba(0, 0, 0, 0) url("/silverip/img/pareja.png") no-repeat scroll right center / 50% auto;
+  background: url("/silverip/img/pareja.png") no-repeat scroll right center / 50% auto, rgba(0, 0, 0, 0) linear-gradient(#fff, #fdfdfd, #f7f7f7) repeat scroll 0 0;
   height: 460px;
   padding-top: 90px;
 }
@@ -757,6 +757,7 @@ iframe {
   position: absolute;
   width: 28px;
 }
+.fig2:after{}
 .contact-uri {
 }
 .contact-uri-img {
